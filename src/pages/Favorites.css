@@ -1,0 +1,84 @@
+.page-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.page-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+
+.page-subtitle {
+  color: #a19ebf;
+  font-size: 1.1rem;
+}
+
+/* Empty watchlist state card */
+.empty-favorites-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 24px;
+  text-align: center;
+  max-width: 600px;
+  margin: 40px auto;
+  gap: 20px;
+  background: rgba(13, 11, 28, 0.4) !important;
+}
+
+.empty-icon {
+  width: 70px;
+  height: 70px;
+  color: #ff3366;
+  filter: drop-shadow(0 0 10px rgba(255, 51, 102, 0.4));
+}
+
+.empty-favorites-panel h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.empty-favorites-panel p {
+  color: #c5c3e0;
+  font-size: 1rem;
+  max-width: 420px;
+  line-height: 1.6;
+}
+
+.search-cta {
+  margin-top: 10px;
+}
+
+.cta-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.cta-arrow {
+  width: 16px;
+  height: 16px;
+  transition: var(--transition-fast);
+}
+
+.glass-button:hover .cta-arrow {
+  transform: translateX(4px);
+}
+
+/* Watchlist listing details */
+.favorites-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.favorites-count {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #c5c3e0;
+}
